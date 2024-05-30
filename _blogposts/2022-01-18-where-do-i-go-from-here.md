@@ -6,7 +6,7 @@ weight: 4
 
 Even though I am only at the end of the first semester of my doctoral degree, I wonder a lot about how my career will develop. 
 
-![A sequence of white doors to choose from](/images/pexels-pixabay-277593-1-2048x1365.jpg)
+![A sequence of white doors to choose from](https://keziaolive.github.io/olivesblog/images/pexels-pixabay-277593-1-2048x1365.jpg)
 
 I am somehow constantly reflecting on whether I want to stay in academia or consider other career opportunities, and also borderline anxious about deciding on what opportunities and skills I should invest in and how I can come to the *right decision*. 
 
