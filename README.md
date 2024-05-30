@@ -1,4 +1,8 @@
-# Jekyll Serif Theme
+Hi, this is Kezia's attempt to build her own website and have a hub for her published work.
+
+This website is built based on Jekyll Serif Theme, but I modified some of it to fit my own work.
+
+# About Jekyll Serif Theme
 
 Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
 
@@ -101,9 +105,3 @@ I've been building open source themes for all the main static site generators fo
 - [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
 
 🇦🇺 **Made in Australia** by Robert Austin
-
-
-### Notes to Kezia
-1. plan the pages (e.g., research publications, CV, personal project) and the content of the pages to be there (check https://jekyll-themes.com/alshedivat/al-folio)
-2. design own logos & headers
-3. figure out how to add video and podcast recordings (audio)
