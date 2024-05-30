@@ -5,6 +5,8 @@ description: About
 bodyClass: page-about
 ---
 
+![Bebek](/images/LizSchneiderPhoto-bebek.jpg)
+
 Hi, my name is Kezia Olive.
 I am currently based in Helsinki, Finland, working as a Doctoral Researcher in the Faculty of Educational Sciences, [University of Helsinki](https://researchportal.helsinki.fi/en/persons/kezia-olive).
 
@@ -14,5 +16,3 @@ You can find my CV (see below), work portfolio, and contact me through this webp
 I love good conversations, especially if it has to do with translating numbers from my research for others, workflow, theology -- preferably alongside good food!
 (Having dogs to pet while we do that is a plus!)
 So if you check all those boxes, looking forward to connecting with you!
-
-![Bebek](/images/LizSchneiderPhoto-bebek.jpg)
