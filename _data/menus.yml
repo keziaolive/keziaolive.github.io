@@ -9,7 +9,7 @@ main:
     url: "/cv/"
     weight: 4
   - name: "Blog"
-    url: "/blog/"
+    url: "/blogposts/"
     weight: 5
   - name: "Contact"
     url: "/contact/"
