@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Students' Motivational Development",
+    "description": "I focus on identifying resources and barriers in students' learning -- individual factors (gender), or social factors (peers, teachers, family).",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Educational Research Methodology",
+    "description": "I work mostly with quantitative data, but eager for discussions related to improving how to gain insights from Educational data.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "(Research) Career Development",
+    "description": "There are so many ways to develop as a researcher, it is also always exciting to learn. I am absolutely open for a good chat about how we learn and grow!",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

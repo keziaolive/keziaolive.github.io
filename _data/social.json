@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/keziaolive",
+    "image": "images/social/github.svg"
+  },
+
+  {
+    "name": "LinkedIn",
+    "link": "https://linkedin.com/in/kezia-olive",
+    "image": "images/social/linkedin.svg"
+  },
+
+  {
+    "name": "X",
+    "link": "https://x.com/KeziaOlive911",
+    "image": "images/social/x.svg"
+  },
+
+  {
+      "name": "Email",
+      "link": "mailto:keziaolive95@gmail.com ",
+      "image": "images/social/email.svg"
+  }
+
+]
