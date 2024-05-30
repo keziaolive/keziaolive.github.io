@@ -1,6 +1,7 @@
 ---
 title: About
 layout: page
+image: "images/LizSchneiderPhoto-bebek.jpg"
 description: About
 bodyClass: page-about
 ---
@@ -14,14 +15,3 @@ You can find my CV (see below), work portfolio, and contact me through this webp
 I love good conversations, especially if it has to do with translating numbers from my research for others, workflow, theology -- preferably alongside good food!
 (Having dogs to pet while we do that is a plus!)
 So if you check all those boxes, looking forward to connecting with you!
-
-![Bebek](/images/LizSchneiderPhoto-bebek.jpg)
-
-
-# CV
-
-<object data="/images/240529_CV.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/images/240529_CV.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/images/240529_CV.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
