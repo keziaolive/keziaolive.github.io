@@ -6,7 +6,7 @@ main:
     url: "/publications/"
     weight: 3
   - name: "CV"
-    url: "/cv"
+    url: "/cv/"
     weight: 4
   - name: "Blog"
     url: "/blog/"
