@@ -8,7 +8,7 @@ intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# I'm Kezia Olive
+# Hi, I'm Kezia Olive
 
 An Educational Psychology Doctoral Researcher at University of Helsinki, Finland. 
 
