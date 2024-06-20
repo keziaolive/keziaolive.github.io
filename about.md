@@ -16,12 +16,11 @@ Here is a short audio clip where I talk shortly about what my work in the past t
 <figure>
   <figcaption>Podcast from GVERSITY, a summary of my work:</figcaption>
   <audio controls src="/images/ResearchRundown_Kezia-1.mp3"></audio>
-  <a href="images/ResearchRundown_Kezia-1.mp3"> Download audio </a>
 </figure>
-
-You can find my CV, work portfolio, and contact me through this webpage.
 
 I love good conversations, especially if it has to do with translating numbers from my research for others, thoughts on gender equality and education, workflow and productivity, or theology -- preferably alongside good food!
 (Having dogs to pet while we do that is a plus!)
+
+You can find my work [portfolio](/publications/), [CV](/cv/), [blogposts](/blog/), and details for [contacting](/contact/) me through this webpage.
 
 Looking forward to connecting with you!
