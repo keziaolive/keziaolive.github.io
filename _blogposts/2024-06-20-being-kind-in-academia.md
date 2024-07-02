@@ -6,8 +6,6 @@ weight: 1
 
 ..its strength and difficulties -- reflecting on G-VERSITY "graduation"
 
-![The 15 of us, PhDs from the International Training Network, in Bern -- I love you all](/images/GVERSITY-PhD-Bern.png)
-
 A couple weeks ago in Bern, Switzerland, we officially "wrap up" the MSCA training network with the [final G-VERSITY conference](https://gversity-2020.eu/final-conference.html). On Saturday morning, after we closed the conference, the final organizational meeting for the network took place. Alongside most of our supervisors and PIs of the network, we shared our own goodbyes and last impressions in our final supervisory board meeting. It was the reflections that came out of this session that I wanted to write about, to remind myself and perhaps others who read this too, in years to come. 
 
 Among the tears shed and hugs exchanged, a theme that came up as something meaningful for me was not the "great success" and "amazing research outcomes", but how much there is wonderful support that most of us witnessed among the 15 of us, PhD students, and how most of us hope that this is not going to fade away.
@@ -33,6 +31,8 @@ One of the author of the article I linked there told us during a chat that this 
 And to be frank, even though I can imagine a few ways of how I can work this way, I don't know the full and clear implications from choosing such a value would be for my career or for my work. Be it in terms of the way I discuss my work, my writing, my decisions in behaving around (difficult) people, in teaching others, or even facing potentially unfair situations.. I can't say I have it figured out. I'm also not saying that this is an ultimate solution that would clearly bring peace and all good things, even to myself, by simply committing to it. But I do hope that writing this down reminds me that even when I couldn't figure it out fully, I _have_ experiences how blessed it is to realize that I have received kindness, support, and grace from others. And I hope I can extend that. And to hold out the hope that more people would see that what's most impactful is really the way we have treated and invested in others.
 
 Echoing Lilian and Leonardo who wrote the " A kinder approach to science" article: *"Our wish is that kindness becomes a habit. In fact, it may become a very enjoyable habit that gets easier and easier, particularly when it is echoed in the community as a whole."*
+
+![The 15 of us, PhDs from the International Training Network, in Bern -- I love you all](/images/GVERSITY-PhD-Bern.png)
 
 ## Suggested readings
 
