@@ -6,7 +6,7 @@ weight: 1
 
 ..its strength and difficulties -- reflecting on G-VERSITY "graduation"
 
-![The 15 of us, PhDs from the International Training Network, in Bern](/images/....jpeg)
+![The 15 of us, PhDs from the International Training Network, in Bern -- I love you all](/images/GVERSITY-PhD-Bern.png)
 
 A couple weeks ago in Bern, Switzerland, we officially "wrap up" the MSCA training network with the [final G-VERSITY conference](https://gversity-2020.eu/final-conference.html). On Saturday morning, after we closed the conference, the final organizational meeting for the network took place. Alongside most of our supervisors and PIs of the network, we shared our own goodbyes and last impressions in our final supervisory board meeting. It was the reflections that came out of this session that I wanted to write about, to remind myself and perhaps others who read this too, in years to come. 
 
@@ -14,9 +14,8 @@ Among the tears shed and hugs exchanged, a theme that came up as something meani
 
 This confronts me in a funny way. Apparently a part of my brain had been so exposed with so much of the "competitiveness" in academia that my idea of "scientific rigor" and "competence" includes messages like "work harder than the next person, cause you have no value here otherwise"; "publish more and better than your peers, or your career is over"; "identify the weakness of the next person and use that as your strength".. 
 I noticed how easy it is to form more and more mistrust towards others, always implicitly thinking -- I need to make sure to always show off how much I'm right and that I am the best and that everyone else is a fool (and if not, what's the point of me being here?). 
-
 And what that brought me, at the end of the day, mostly is anxiety, since I believe others would think the same about me! "They are all out to get me, I need to make sure this doesn't happen!", or that "I worked so hard so I get to where I am now -- I need to make sure that I look out just for myself cause others will just gossip about me and drag me down!"
-What a wonderful state to be in, huh.
+What a wonderful state to be in, huh. How is this belief and state stand side-by-side with the wishes during our "graduation" to continue this community of support?
 
 This, obviously, doesn't feel like it aligns to the "supportive" community that we hoped to sustain. And it feels somewhat ridiculous as well, given that the things I am (and we are all) passionate about solving and understanding is basically how to develop as a society that is more inclusive and equal, or in other words, "how can we be kind and better to each other in all that we do?"
 We came together in such a conference because we care so much about such issues  -- yet it's funny to me that most of the time, the way I perceive academia is more of an arena out of *hunger games* where "survival of the fittest" as long as you survive, your ends justify your means.
