@@ -1,5 +1,5 @@
 ---
-title: "Gendered Difference In Motivational Profiles, Achievement, And STEM Aspiration Of Elementary School Students"
+title: "Gendered difference in motivational profiles, achievement, and STEM aspiration of elementary school students"
 date: 2023-12-23
 weight: 2
 ---
