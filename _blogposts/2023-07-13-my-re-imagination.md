@@ -41,6 +41,7 @@ More than that, I realized another point: this experience showed me how my skill
 In the end, as I reflect upon this experience, I realized how much the workshop was not only challenging others to discover and “re-discover” change for an inclusive gender equal future in research and innovation. It also challenged me to “re-imagine” what it is like to be a researcher. 
 
 If, as a researcher, you have never considered doing a placement or internship with a non-academic organization, let this reflection convince you of how beneficial it was for me. Do give it a shot, especially if you get the opportunity! And if you want to know more about PORTIA and INSPIRE, check their website: [https://www.inspirequality.eu](https://www.inspirequality.eu)
+
 ---
 
 *This post was first posted in [G-Versity blog](https://gversity-solutions.org/blog-solutions/solutions/my-re-imagination-how-i-was-challenged-as-a-researcher-through-my-secondment/).*

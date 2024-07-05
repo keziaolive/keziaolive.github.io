@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: '/'
 permalink: pretty
 title: 'Kezia Olive'
 
@@ -52,6 +52,8 @@ plugins:
 scholar:
   style: apa
   sort_by: year
+  bibliography: references.bib
+  bibliography_template: pubstemplate
 
 exclude:
   - Gemfile

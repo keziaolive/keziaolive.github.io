@@ -61,6 +61,7 @@ And if you want to read more about [expectancy value theory](https://www.science
 Eccles, J.S, Wigfield, A. (2020). From expectancy-value theory to situated expectancy-value theory: A developmental, social cognitive, and sociocultural perspective on motivation. Contemporary Educational Psychology, 61. [https://doi.org/10.1016/j.cedpsych.2020.101859](https://doi.org/10.1016/j.cedpsych.2020.101859)
 
 Möller, J., & Marsh, H. W. (2013). Dimensional comparison theory. Psychological Review, 120(3), 544–560. [https://doi.org/10.1037/a0032459](https://doi.org/10.1037/a0032459)
+
 ---
 
 *This post was first posted in [G-Versity blog](https://gversity-solutions.org/blog-solutions/solutions/why-youre-still-more-likely-to-dislike-math-even-if-you-have-high-grades-in-it/).*
