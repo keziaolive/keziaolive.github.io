@@ -8,7 +8,7 @@ weight: 1
 
 ![Illustration of holding trophy in math followed by unequal sign and loving math](/images/math-achievement-love.jpeg)
 
-In this post, I will draw on the results from my second study about one’s achievements: even though our achievements influence what we like and find important to us, we are not as simple as “you like what you’re good at”, and this can be insightful in understanding why female students steer away from STEM subjects.
+In this post, I will draw on the results from [my second study](https://doi.org/10.1016/j.lindif.2024.102534) about one’s achievements: even though our achievements influence what we like and find important to us, we are not as simple as “you like what you’re good at”, and this can be insightful in understanding why female students steer away from STEM subjects.
 
 ## How do students decide what they like and dislike, or see as important and/or useful?
 
@@ -54,7 +54,7 @@ Of course, we should keep in mind that these are generalizations that would not 
 
 Now I want to hear from you: Does this speak to your experience? Have you ever shied away from a certain thing even though you’re good at it? Did you feel like your sense of belonging is more important than your skills? Or do you have a completely different story? Let us know in the comments below!
 
-And if you want to read more about [expectancy value theory](https://www.sciencedirect.com/science/article/abs/pii/S0361476X20300242?via%3Dihub) (explaining why we choose to do things we do) and [dimensional comparison theory](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0032459) (how we compare ourselves to understand ourselves), you can click the links – or read my  most recent article once it is published (the link will be published here as well).
+And if you want to read more about [expectancy value theory](https://www.sciencedirect.com/science/article/abs/pii/S0361476X20300242?via%3Dihub) (explaining why we choose to do things we do) and [dimensional comparison theory](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0032459) (how we compare ourselves to understand ourselves), you can click the links – or read [my most recent article](https://doi.org/10.1016/j.lindif.2024.102534).
 
 ## Suggested readings
 
@@ -62,6 +62,7 @@ Eccles, J.S, Wigfield, A. (2020). From expectancy-value theory to situated expec
 
 Möller, J., & Marsh, H. W. (2013). Dimensional comparison theory. Psychological Review, 120(3), 544–560. [https://doi.org/10.1037/a0032459](https://doi.org/10.1037/a0032459)
 
+Olive, K., Yu, J., Vinni-Laakso, J., & Salmela-Aro, K. (2024). Social and dimensional comparisons of achievement in multifaceted task value formation among adolescents. Learning and Individual Differences, 115, 102534. [https://doi.org/10.1016/j.lindif.2024.102534](https://doi.org/10.1016/j.lindif.2024.102534)
 ---
 
 *This post was first posted in [G-Versity blog](https://gversity-solutions.org/blog-solutions/solutions/why-youre-still-more-likely-to-dislike-math-even-if-you-have-high-grades-in-it/).*
