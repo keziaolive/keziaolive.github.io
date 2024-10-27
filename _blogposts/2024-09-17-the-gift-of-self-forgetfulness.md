@@ -4,7 +4,7 @@ date: 2024-09-14
 weight: 1
 ---
 
-An experiment on initiating intentional good for others -- and not feeling crazy awkward at conferences.
+Experiment on initiating intentional good for others and not feeling crazy awkward at conferences.
 
 At the end of August this year, I came back home from the last conference I attended for the year, and noticed that compared to other years, I felt more comfortable and not as socially awkward! _What changed?_ but most importantly, _how can this help others?_
 
