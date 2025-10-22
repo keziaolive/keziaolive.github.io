@@ -1,10 +1,19 @@
 ---
-title: "Crash Course for LaTeX--open science in Educational Psychology"
+title: "Crash Course for LaTeX: Open science in Educational Psychology"
 date: 2025-10-22
 weight: 1
 ---
 
-This is the written format of a workshop I am giving for **Emerging Scholars in Educational and Learning Sciences** conference (University of Helsinki) on 24th of October 2025.
+A LaTeX/Overleaf tutorial in written format! 
+This is a written version of a workshop I am giving for **Emerging Scholars in Educational and Learning Sciences** conference (University of Helsinki) on 24th of October 2025.
+
+# What you'll need for this practice
+1. Create an account in [Overleaf](https://www.overleaf.com/)
+2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing! 
+    - you can find the template in Overleaf following these images, but you could also google it and get it straight away
+3. Download the two mock-files you will need for this exercise: 
+    - .bib file -- [link](https://keziaolive.jabsserver.net/overleaf-practice.bib)
+    - .png file -- [link](https://keziaolive.jabsserver.net/conceptual_model.png).
 
 # Why learn LaTeX?
 - What we do requires writing: be it writing essays, reports, journal articles, or our thesis/dissertation
@@ -14,18 +23,18 @@ This is the written format of a workshop I am giving for **Emerging Scholars in 
         - I would love for science to be open and free -- not only accessible to those who can afford a Microsoft suite. 
         - You could go to google docs or use LibreOffice, but..
     - a lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating when 
-        (1) "What number figure is that again?" 
-        (2) "Did I make sure that all the references are properly put in?" 
-        (3) "What kind of sorcery made my page look so wonky???"
+        - "What number figure is that again?" 
+        - "Did I make sure that all the references are properly put in?" 
+        - "What kind of sorcery made my page look so wonky???"
 
-![simpons meme where everything is chaos, representing ms word formatting chaos](images/ms-word-nightmare-simpsons.jpg)
+![simpons meme where everything is chaos, representing ms word formatting chaos](/images/ms-word-nightmare-simpsons.jpg)
 
 # The aim of this exercise
-- Introducing `LaTeX`, an open-sourced text-processing software
+- Introducing $LaTeX$, an open-sourced text-processing software
     - specifically in this session, we use [Overleaf](https://www.overleaf.com/), which allows you to use LaTeX online. You don't need to download and configure it in your own machine. In time, you can do so, but for now, let's use this online version that is way more beginner-friendly!
 
 ## LaTeX?
-- An open-sourced text-processing software (free for you, your kids, your grandkids!)
+- An open-sourced text-processing [software](https://www.latex-project.org/) (free for you, your kids, your grandkids!)
 - Relies on a plain text file, sprinkled with LaTeX commands for typesetting a final, beautiful PDF file
 - A software that formats your documents for you, so you don’t need to fuss
 
@@ -44,29 +53,23 @@ Through this, you get to learn:
 
 Follow along with these steps below!
 
-## What you'll need for this practice
-1. Create an account in [Overleaf](https://www.overleaf.com/)
-2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing! 
-    - you can find the template in Overleaf following these images, but you could also google it and get it straight away
-3. Download the two mock-files you will need for this exercise: 
-(1) .bib file -- [link](https://keziaolive.jabsserver.net/overleaf-practice.bib)
-(2) .png file -- [link](https://keziaolive.jabsserver.net/conceptual_model.png).
-
 ## Quick Overleaf tour
-When you open the template, you get to see the left-most panel, listing all the files associated with this project: 
-1. All LaTeX project would need the `.tex` file, which is where you write your content
-2. If it is an academic project with bibliography, then you will also have a `.bib` file, which is the list of references for your article. Usually you can create these `Bibtex` files from your reference management software (e.g., Zotero, Mendeley), or even download them from the publisher's page
-3. If you want to add images to your file, you also put them here. Like the `.pdf` file at the bottom of the list
-4. Many templates also have the `.cls` file, which defines the styles of the document(s) when they are formatted.
+![what-your-overleaf-template-looks](/images/overleaf-screenshot.png)
+
+When you open the template, on the left-most panel, it is a list of all the files associated with this project: 
+1. `.tex` -- All LaTeX project would need the `.tex` file, which is where you write your content
+2. `.bib` -- If it is an academic project with bibliography, then you will also have a `.bib` file, which is the list of references for your article. Usually you can create these `Bibtex` files from your reference management software (e.g., Zotero, Mendeley), or even download them from the publisher's page
+3. `.cls` -- Many templates also have the `.cls` file, which defines the styles of the document(s) when they are formatted.
+4. `.pdf` or `.png` or `.jpg` -- If you want to add images to your file, you also put them here. Like the `.pdf` file at the bottom of the list
 
 In the middle part, you get to see the file content of all our files, and finally,
 
 In the right-most part, you get to see how our .pdf looks like once the TeX engine "compiled" the `.tex` files 
 
-For our practice, you can upload all the [files I shared to you](https://keziaolive.jabsserver.net/Overleaf-practice.zip) to this project, and we'll move on by actually writing into the `elsarticle-template-harv.tex` file!
+For our practice, you can upload all the files I shared to you to this project, and we'll move on by actually writing into the `elsarticle-template-harv.tex` file!
 
 ## LaTeX document structure: going through the Elsevier template
-![](Elsevier-template-intro.png)
+![common-preamble-and-what-it-means](/images/Elsevier-template-intro.png)
 1. We are using a pre-made template by Elsevier, so the structure is pretty much done for you. But most of the time we have to start with describing "What document is this?" (Answer: `\documentclass[preprint,12pt,authoryear]{elsearticle}`)
     - this means it is an "elsearticle" for submission (preprint), the font size is 12pt, and citation style is "authoryear" (rather than numbered, etc.).
     - they also listed other options in the comments (anything following the percent `%` sign is assumed as comment and not read by the TeX machine as input)
@@ -166,14 +169,16 @@ Now to finally reference this in-text, go back to the pasted sentence and specif
 Then try recompiling it! Voila, you've covered most of the basics of how to do basics of LaTeX.
 
 # Summary
-- This is an introduction to a tool that is openly available to everyone -- you just need a working internet and willingness to learn.
+This is an introduction to a tool that is openly available to everyone -- you just need a working internet and willingness to learn.
     - There is so much more you can do! I wrote my dissertation with LaTeX, and what a joy it is not to worry about formatting my table of contents in Word, cause LaTeX takes care of it for me.
     - You can also check different publishers for their LaTeX template
-- This session is not aimed to convert everyone into using LaTeX, but as a showcase of what is possible, what tools are available, and to nudge all of us to explore ways to make our scientific work more accessible and doable, even without the institutional privileges.
-    - In Computer Science, it is common practice to only pay around 80 euros to publish an article: they got rid of expensive article processing fees completely, cause everyone can format their texts to publishing ready without having someone hired to format them! Isn't that a wonderful practice that we can aspire to get to?
-- Anyhow. Even if you're not taking up LaTeX or Overleaf, I hope this challenges you to think of ways to ensure that scientific publishing is more open.
 
-All in all, good luck and have fun! Feel free to [contact me](https://keziaolive.github.io/contact/) to geek out over LaTeX.
+This session is not aimed to convert everyone into using LaTeX, but as a showcase of what is possible, what tools are available, and to nudge all of us to explore ways to make our scientific work more accessible and doable, even without the institutional privileges. In Computer Science, it is common practice to only pay around 80 euros to publish an article: they got rid of expensive article processing fees completely, cause everyone can format their texts to publishing ready without having someone hired to format them! Isn't that a wonderful practice that we can aspire to get to?
+
+Anyhow. Even if you're not taking up LaTeX or Overleaf, I hope this challenges you to think of ways to ensure that scientific publishing is more open.
+
+All in all, good luck and have fun! 
+Feel free to [contact me](https://keziaolive.github.io/contact/) to geek out over LaTeX.
 
 # Additional resources
 If you'd like to explore more on your own, try out [Overleaf's step-by-step guide for your first project]( [https://docs.overleaf.com/getting-started/your-first-project]), or [explore the different LaTeX commands](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Writing_your_first_piece_of_LaTeX).
