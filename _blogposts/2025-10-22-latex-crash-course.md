@@ -10,31 +10,32 @@ A LaTeX/Overleaf short tutorial in written format!
 
 This is a written version of a workshop I am giving for **Emerging Scholars in Educational and Learning Sciences** conference (University of Helsinki) on 24th of October 2025.
 
+> Reminder: although this is easier if you have done programming before, and I might say examples for those who have used R or Python before, this is _really_ not necessary at all! 
+
 # What you'll need for this exercise
 1. Create an account in [Overleaf](https://www.overleaf.com/)
-2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing! 
-    - You can find the template in Overleaf following these images, but you could also google it and get it straight away
+2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing!
 3. Download the two mock-files you will need for this exercise: 
     - .bib file -- [link](https://keziaolive.jabsserver.net/overleaf-practice.bib)
     - .png file -- [link](https://keziaolive.jabsserver.net/conceptual_model.png).
 
 # 1. Why learn LaTeX?
-- What we do requires writing: be it writing essays, reports, journal articles, or our thesis/dissertation
-- These require tools, and we rely a lot on Microsoft Office suites
-- While this is a good solution in general, there are several frustrations:
-    - It is _not_ free. If you are not getting it paid by the university, it is pricey!
-        - I would love for science to be open and free -- not only accessible to those who can afford a Microsoft suite. 
-        - You could go to google docs or use LibreOffice, but..
-    - A lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating when 
-        - "What number figure is that again?" 
-        - "Did I make sure that all the references are properly put in?" 
-        - "What kind of sorcery made my page look so wonky???"
+What we do requires writing: be it writing essays, reports, journal articles, or our thesis/dissertation. These require tools, and we rely a lot on Microsoft Office suites.
 
-![simpons meme where everything is chaos, representing ms word formatting chaos](/images/ms-word-nightmare-simpsons.jpg)
+While this is a good solution in general, there are several frustrations:
+   - It is _not_ free. If you are not getting it paid by the university, it is pricey!
+       - I would love for science to be open and free -- not only accessible to those who can afford a Microsoft suite. 
+       - You could go to google docs or use LibreOffice, but..
+   - A lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating when 
+       - "What number figure is that again?" 
+       - "Did I make sure that all the references are properly put in?" 
+       - "What kind of sorcery made my page look so wonky???"
+
+![simpsons meme where everything is chaos, representing ms word formatting chaos](/images/ms-word-nightmare-simpsons.jpg)
 
 # 2. The aim of this exercise
-- Introducing `LaTeX`, an open-sourced text-processing software
-    - specifically in this session, we use [Overleaf](https://www.overleaf.com/), which allows you to use LaTeX online. You don't need to download and configure it in your own machine. In time, you can do so, but for now, let's use this online version that is way more beginner-friendly!
+Introducing `LaTeX`, an open-sourced text-processing software
+  - specifically in this session, we use [Overleaf](https://www.overleaf.com/), which allows you to use LaTeX online. You don't need to download and configure it in your own machine. In time, you can do so, but for now, let's use this online version that is way more beginner-friendly!
 
 ## LaTeX?
 ![LaTeX-logo](/images/LaTeX_logo.png)
@@ -62,11 +63,11 @@ Follow along with these steps below!
 
 When you open the template, on the left-most panel, it is a list of all the files associated with this project: 
 1. `.tex` -- All LaTeX project would need the `.tex` file, which is where you write your content
-2. `.bib` -- If it is an academic project with bibliography, then you will also have a `.bib` file, which is the list of references for your article. Usually you can create these `Bibtex` files from your reference management software (e.g., Zotero, Mendeley), or even download them from the publisher's page
-3. `.cls` -- Many templates also have the `.cls` file, which defines the styles of the document(s) when they are formatted.
-4. `.pdf` or `.png` or `.jpg` -- If you want to add images to your file, you also put them here. Like the `.pdf` file at the bottom of the list
+2. `.bib` -- The list of references for your article. If it is an academic project with bibliography, then you will also have a `.bib` file for your references. Usually you can create these `Bibtex` files from your reference management software (e.g., Zotero, Mendeley), or even download them from the publisher's page
+3. `.cls` -- Defines the styles of the document(s) when they are formatted. Many templates have the `.cls` file, to create unique environments and styles 
+4. `.pdf` or `.png` or `.jpg` -- images you want to add to your document. You can see the `.pdf` file embedded at the bottom of the list
 
-In the middle part, you get to see the file content of all our files, and finally,
+In the middle part, you get to see the file content of all our files.
 
 In the right-most part, you get to see how our .pdf looks like once the TeX engine "compiled" the `.tex` files 
 
@@ -78,7 +79,7 @@ For our practice, you can upload all the files I shared to you to this project, 
     - this means it is an "elsearticle" for submission (preprint), the font size is 12pt, and citation style is "authoryear" (rather than numbered, etc.).
     - they also listed other options in the comments (anything following the percent `%` sign is assumed as comment and not read by the TeX machine as input)
     - similar to the hash `#` in R
-2. then we usually also specify what other tools we want to use in the article. Some people need math symbols, or to print equations. This is why we have the `\usepackage{amssymb}` and `\usepackage{amsmath}`. 
+2. Then we specify what other tools we want to use in the article. Some people need math symbols, or to print equations. This is why we have the `\usepackage{amssymb}` and `\usepackage{amsmath}`. 
     - for this practice, we will also add one of my favorite package for creating references, but we'll get there in a bit.
     - this is similar to loading libraries in R or Python
 3. Then, we tell LaTeX that from this line on, we are starting the content of the document. This is what the `\begin` command does. Everything before this is called the "preamble", which basically defines the "setup" for LaTeX.
@@ -134,16 +135,22 @@ Different people approach this differently, but I'm going to introduce you to my
 
 Given that we want to ensure an APA style citation, we should go back to the top where the preamble is, and specify to LaTeX:
 `\usepackage[backend=biber,style=apa]{biblatex}` 
-`\addbibresource{Overleaf-practice.bib}`
+`\addbibresource{overleaf-practice.bib}`
 
-This basically informs LaTeX that we want to use the biblatex package to process our references, and that it should use the file `Overleaf-practice.bib` as its source.
+This basically informs LaTeX that we want to use the biblatex package to process our references, and that it should use the file `overleaf-practice.bib` as its source.
 
 Take a look at the file! I got this straight out of my Zotero; I created a collection, exported it as a BibTeX file, and put it here. This file format allows you to change reference style at any point, and still have the right back-end information every single time.
 
 Next, we'll remove the citation and bibliography examples from the bottom of the template (lines 253-280) and replace it with our own: `\printbibliography[title={References}]`
 
-Next, we turn the in-text citations from normal text into citation commands by using `\cite{}`. To fill it, either paste the "citation key" from your .bib file (the text right after the `@article` description), or sometimes when you start typing the name, Overleaf suggests it for you.
-For single citation, you can use `\cite{}`. For instance, `\cite{eccles_expectancy-value_2020}`. For more than one, you can use `\cites{}{}` and use the curly brackets to specify however many articles you're referring to there.
+Next, we turn the in-text citations from normal text into citation commands by using `\cite{}`. 
+
+To fill it, either paste the "citation key" from your .bib file (the text right after the `@article` description), or sometimes when you start typing the name, Overleaf suggests it for you.
+
+For single citation, you can use `\cite{}`. For instance, `\cite{eccles_expectancy-value_2020}`. 
+
+For more than one, you can use `\cites{}{}` and use the curly brackets to specify however many articles you're referring to there.
+
 So for example we have two `\cites{gaspard_how_2019}{trautwein_probing_2012}` or even three `\cites{bong_role_2001}{durik_task_2006}{musu-gillette_trajectories_2015}`.
 
 > There are more ways to do your citations: with parenthesis, only with year, only with author, etc. You can check all the variations in this [cheatsheet](https://tug.ctan.org/info/biblatex-cheatsheet/biblatex-cheatsheet.pdf).
