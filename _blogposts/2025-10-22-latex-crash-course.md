@@ -6,12 +6,14 @@ weight: 1
 
 A LaTeX/Overleaf short tutorial in written format! 
 
+![overleaf-logo](/images/overleaf-logo.png)
+
 This is a written version of a workshop I am giving for **Emerging Scholars in Educational and Learning Sciences** conference (University of Helsinki) on 24th of October 2025.
 
 # What you'll need for this exercise
 1. Create an account in [Overleaf](https://www.overleaf.com/)
 2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing! 
-    - you can find the template in Overleaf following these images, but you could also google it and get it straight away
+    - You can find the template in Overleaf following these images, but you could also google it and get it straight away
 3. Download the two mock-files you will need for this exercise: 
     - .bib file -- [link](https://keziaolive.jabsserver.net/overleaf-practice.bib)
     - .png file -- [link](https://keziaolive.jabsserver.net/conceptual_model.png).
@@ -19,11 +21,11 @@ This is a written version of a workshop I am giving for **Emerging Scholars in E
 # 1. Why learn LaTeX?
 - What we do requires writing: be it writing essays, reports, journal articles, or our thesis/dissertation
 - These require tools, and we rely a lot on Microsoft Office suites
-- while this is a good solution in general, there are several frustrations:
-    - it is _not_ free. If you are not getting it paid by the university, it is pricey!
+- While this is a good solution in general, there are several frustrations:
+    - It is _not_ free. If you are not getting it paid by the university, it is pricey!
         - I would love for science to be open and free -- not only accessible to those who can afford a Microsoft suite. 
         - You could go to google docs or use LibreOffice, but..
-    - a lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating when 
+    - A lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating when 
         - "What number figure is that again?" 
         - "Did I make sure that all the references are properly put in?" 
         - "What kind of sorcery made my page look so wonky???"
@@ -35,6 +37,7 @@ This is a written version of a workshop I am giving for **Emerging Scholars in E
     - specifically in this session, we use [Overleaf](https://www.overleaf.com/), which allows you to use LaTeX online. You don't need to download and configure it in your own machine. In time, you can do so, but for now, let's use this online version that is way more beginner-friendly!
 
 ## LaTeX?
+![LaTeX-logo](/images/LaTeX_logo.png)
 - An open-sourced text-processing [software](https://www.latex-project.org/) (free for you, your kids, your grandkids!)
 - Relies on a plain text file, sprinkled with LaTeX commands for typesetting a final, beautiful PDF file
 - A software that formats your documents for you, so you don’t need to fuss
