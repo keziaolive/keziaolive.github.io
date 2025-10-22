@@ -4,10 +4,11 @@ date: 2025-10-22
 weight: 1
 ---
 
-A LaTeX/Overleaf tutorial in written format! 
+A LaTeX/Overleaf short tutorial in written format! 
+
 This is a written version of a workshop I am giving for **Emerging Scholars in Educational and Learning Sciences** conference (University of Helsinki) on 24th of October 2025.
 
-# What you'll need for this practice
+# What you'll need for this exercise
 1. Create an account in [Overleaf](https://www.overleaf.com/)
 2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing! 
     - you can find the template in Overleaf following these images, but you could also google it and get it straight away
@@ -15,7 +16,7 @@ This is a written version of a workshop I am giving for **Emerging Scholars in E
     - .bib file -- [link](https://keziaolive.jabsserver.net/overleaf-practice.bib)
     - .png file -- [link](https://keziaolive.jabsserver.net/conceptual_model.png).
 
-# Why learn LaTeX?
+# 1. Why learn LaTeX?
 - What we do requires writing: be it writing essays, reports, journal articles, or our thesis/dissertation
 - These require tools, and we rely a lot on Microsoft Office suites
 - while this is a good solution in general, there are several frustrations:
@@ -29,7 +30,7 @@ This is a written version of a workshop I am giving for **Emerging Scholars in E
 
 ![simpons meme where everything is chaos, representing ms word formatting chaos](/images/ms-word-nightmare-simpsons.jpg)
 
-# The aim of this exercise
+# 2. The aim of this exercise
 - Introducing $LaTeX$, an open-sourced text-processing software
     - specifically in this session, we use [Overleaf](https://www.overleaf.com/), which allows you to use LaTeX online. You don't need to download and configure it in your own machine. In time, you can do so, but for now, let's use this online version that is way more beginner-friendly!
 
@@ -53,7 +54,7 @@ Through this, you get to learn:
 
 Follow along with these steps below!
 
-## Quick Overleaf tour
+# 3. Quick Overleaf tour
 ![what-your-overleaf-template-looks](/images/overleaf-screenshot.png)
 
 When you open the template, on the left-most panel, it is a list of all the files associated with this project: 
@@ -68,7 +69,7 @@ In the right-most part, you get to see how our .pdf looks like once the TeX engi
 
 For our practice, you can upload all the files I shared to you to this project, and we'll move on by actually writing into the `elsarticle-template-harv.tex` file!
 
-## LaTeX document structure: going through the Elsevier template
+# 4. LaTeX document structure: going through the Elsevier template
 ![common-preamble-and-what-it-means](/images/Elsevier-template-intro.png)
 1. We are using a pre-made template by Elsevier, so the structure is pretty much done for you. But most of the time we have to start with describing "What document is this?" (Answer: `\documentclass[preprint,12pt,authoryear]{elsearticle}`)
     - this means it is an "elsearticle" for submission (preprint), the font size is 12pt, and citation style is "authoryear" (rather than numbered, etc.).
@@ -81,7 +82,7 @@ For our practice, you can upload all the files I shared to you to this project, 
 
 > The great thing about Overleaf is they are trying to bridge the "code" side of things with what people are more used to seeing, and they have the "Visual Editor" mode if the codes are too confusing!
 
-## Filling in details: Abstract
+# 5. Filling in details: Abstract
 From here on, it is quite straight-forward.
 1. Let's try adding the title (line 84), author (line 102), and affiliation details (lines 105-110). Just copy them from [the article page in Elsevier](https://doi.org/10.1016/j.lindif.2024.102534) -- then click the "Recompile" button or `ctrl+Enter` or `cmd+Enter`. Do you see the changes now? Easy, don't you think? Now all of the formatting is really done for you.
 2. Moving on to the abstract, let's copy the text from the article page again. Do you see that Overleaf shows something funny following the percent (`%`) sign? This is because LaTeX uses the sign as a special symbol (to comment out things). To tell LaTeX that we want the symbol to appear in our .pdf, we simply add backslash `\%`.
@@ -93,22 +94,26 @@ Try it with the "Mage"--turn it into `$Mage$`; and the "52%"--turn it into `$52\
 
 Another neat thing is that you could ask LaTeX to specify the M-dash (the long dashes, like in the second to last line of the abstract).
 
-Write it as "higher cost in math–--effects not explained by achievement comparisons."
+Write it as "higher cost in math `---` effects not explained by achievement comparisons."
 
 Try to recompile and see what happens!
 
-## Filling in details: Highlights
+# 6. Filling in details: Highlights
 The template specified a space for us to add our graphical abstract, but given that we don't have any, we can just comment it out. Add `%` in front of each line, and we're good to go.
 
 Next part is highlights, which is funnily enough in the formatting appears before the article!
 
 This is arranged in the `.cls` file, and gratefully, we don't need to worry about that!
-So now you get to see how we do bullet points in LaTeX: we use the command `\item`. Outside of this template, usually we do this by saying `\begin{itemize}` before our `\item` lists and end it with `\end{itemize}`; but in this case, the template already specified this for us in the `.cls` file and we only needed to add more items. Try copy-pasting all the highlights and see for yourself what it looks like when compiled in the .pdf!
+So now you get to see how we do bullet points in LaTeX: we use the command `\item`. 
 
-## Filling in details: Keywords
+Outside of this template, usually we do this by saying `\begin{itemize}` before our `\item` lists and end it with `\end{itemize}`; but in this case, the template already specified this for us in the `.cls` file and we only needed to add more items. 
+
+Try copy-pasting all the highlights and see for yourself what it looks like when compiled in the .pdf!
+
+# 7. Filling in details: Keywords
 Next, we can write the keywords. The template told us to write each keyword separated by `\sep`. Let's copy the keywords and do so!
 
-## Filling in details: Introduction
+# 8. Filling in details: Introduction
 Now the most exciting part: writing the content.
 
 Let's specify that our first section is called "Introduction" by specifying `\section{Introduction}` (rather than Example Section). The section and subsection commands mean that you can switch the order of sections without having to worry about numbering them correctly. 
@@ -132,9 +137,7 @@ This basically informs LaTeX that we want to use the biblatex package to process
 
 Take a look at the file! I got this straight out of my Zotero; I created a collection, exported it as a BibTeX file, and put it here. This file format allows you to change reference style at any point, and still have the right back-end information every single time.
 
-Next, we'll remove the citation and bibliography examples from the bottom of the template (lines 253-280) and replace it with our own: `\printbibliography[
-title={References}
-]`
+Next, we'll remove the citation and bibliography examples from the bottom of the template (lines 253-280) and replace it with our own: `\printbibliography[title={References}]`
 
 Next, we turn the in-text citations from normal text into citation commands by using `\cite{}`. To fill it, either paste the "citation key" from your .bib file (the text right after the `@article` description), or sometimes when you start typing the name, Overleaf suggests it for you.
 For single citation, you can use `\cite{}`. For instance, `\cite{eccles_expectancy-value_2020}`. For more than one, you can use `\cites{}{}` and use the curly brackets to specify however many articles you're referring to there.
@@ -148,7 +151,7 @@ Do you see that at the end of the article, your references are automatically for
 
 And no matter how many references you have in your .bib file, only those you have cited in the article will show up here -- which means no more anxiously manually checking whether you've put in all the bibliography!
 
-## Filling in details: Figure
+# 9. Filling in details: Figure
 Now to the last part of our crash course to LaTeX today, let's practice adding a picture to our file.
 
 You could copy the first two lines from "1.4. The Present study", and you'll notice that in the article, this is referencing Figure 1. How do we do that?
@@ -159,7 +162,7 @@ You can go to the bottom of the page until you find the line `\begin{figure}[t]`
 This command is read by TeX as "I want to add a figure here, please." The `[t]` means you're telling LaTeX "I want it placed at the top of the page". 
 > You can open the [link suggested by the template](https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions) to see other placement specifiers you can do. 
 
-Then the command `\includegraphics[]{}` describes which image file LaTeX should use. In our case, we could write `\includegraphics[width= \textwidth]{240417-conceptual_model.png}`. This tells LaTeX that I want it exactly as wide as the text, , and with this file. 
+Then the command `\includegraphics[]{}` describes which image file LaTeX should use. In our case, we could write `\includegraphics[width= \textwidth]{240417-conceptual_model.png}`. This tells LaTeX that I want it exactly as wide as the text, and with this file. 
 > You could change the size to whatever, like 5 cm wide or 10 cm tall (use `height=`).
 
 Next, look at the `\label{}`. This is where you specify the nickname to reference the figure in-text. In my experience, most people add, remove, and change figures often in the process, that trying to remember which number it is doesn't really work well! So name it as something you can easily remember. Let's say we want to call it "conceptual-model" rather than the boring "fig 1". We specify it by writing `\label{conceptual-model}`.
@@ -168,7 +171,7 @@ Now to finally reference this in-text, go back to the pasted sentence and specif
 
 Then try recompiling it! Voila, you've covered most of the basics of how to do basics of LaTeX.
 
-# Summary
+# 10. Summary
 This is an introduction to a tool that is openly available to everyone -- you just need a working internet and willingness to learn.
     - There is so much more you can do! I wrote my dissertation with LaTeX, and what a joy it is not to worry about formatting my table of contents in Word, cause LaTeX takes care of it for me.
     - You can also check different publishers for their LaTeX template
