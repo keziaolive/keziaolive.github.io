@@ -31,7 +31,7 @@ This is a written version of a workshop I am giving for **Emerging Scholars in E
 ![simpons meme where everything is chaos, representing ms word formatting chaos](/images/ms-word-nightmare-simpsons.jpg)
 
 # 2. The aim of this exercise
-- Introducing $LaTeX$, an open-sourced text-processing software
+- Introducing `LaTeX`, an open-sourced text-processing software
     - specifically in this session, we use [Overleaf](https://www.overleaf.com/), which allows you to use LaTeX online. You don't need to download and configure it in your own machine. In time, you can do so, but for now, let's use this online version that is way more beginner-friendly!
 
 ## LaTeX?
@@ -84,12 +84,12 @@ For our practice, you can upload all the files I shared to you to this project, 
 
 # 5. Filling in details: Abstract
 From here on, it is quite straight-forward.
-1. Let's try adding the title (line 84), author (line 102), and affiliation details (lines 105-110). Just copy them from [the article page in Elsevier](https://doi.org/10.1016/j.lindif.2024.102534) -- then click the "Recompile" button or `ctrl+Enter` or `cmd+Enter`. Do you see the changes now? Easy, don't you think? Now all of the formatting is really done for you.
+1. Let's try adding the title (line 84), author (line 102), and affiliation details (lines 105-110). Just copy them from [the article page in Elsevier](https://doi.org/10.1016/j.lindif.2024.102534) -- then click the "Recompile" button or `ctrl+Enter` or `cmd+Enter`. Do you see the changes now? Easy, don't you think? Now all the formatting is really done for you.
 2. Moving on to the abstract, let's copy the text from the article page again. Do you see that Overleaf shows something funny following the percent (`%`) sign? This is because LaTeX uses the sign as a special symbol (to comment out things). To tell LaTeX that we want the symbol to appear in our .pdf, we simply add backslash `\%`.
-3. Now I want to show something neat: if we are following APA style standard, some statistical reporting needs to happen with greek symbols or italized, and so on. This is where LaTeX really shines: math mode!
+3. Now I want to show something neat: if we are following APA style standard, some statistical reporting needs to happen with Greek symbols or italized, and so on. This is where LaTeX really shines: math mode!
 
 ### Intro to math mode and more formatting
-Instead of clicking through options to make sure we get the right symbols like we do in Word, we just blanket the parts that needs to show up in "math mode" with `$`.
+Instead of clicking through options to make sure we get the right symbols like we do in Word, we just blanket the parts that need to show up in "math mode" with `$`.
 Try it with the "Mage"--turn it into `$Mage$`; and the "52%"--turn it into `$52\%$`. 
 
 Another neat thing is that you could ask LaTeX to specify the M-dash (the long dashes, like in the second to last line of the abstract).
@@ -106,7 +106,7 @@ Next part is highlights, which is funnily enough in the formatting appears befor
 This is arranged in the `.cls` file, and gratefully, we don't need to worry about that!
 So now you get to see how we do bullet points in LaTeX: we use the command `\item`. 
 
-Outside of this template, usually we do this by saying `\begin{itemize}` before our `\item` lists and end it with `\end{itemize}`; but in this case, the template already specified this for us in the `.cls` file and we only needed to add more items. 
+Outside this template, usually we do this by defining `\begin{itemize}` before our `\item` lists and end it with `\end{itemize}`; but in this case, the template already specified this for us in the `.cls` file, and we only needed to add more items. 
 
 Try copy-pasting all the highlights and see for yourself what it looks like when compiled in the .pdf!
 
@@ -118,7 +118,7 @@ Now the most exciting part: writing the content.
 
 Let's specify that our first section is called "Introduction" by specifying `\section{Introduction}` (rather than Example Section). The section and subsection commands mean that you can switch the order of sections without having to worry about numbering them correctly. 
 
-(In this practice, you can remove the subsections if you'd like cause we won't use it.)
+(In this practice, you can remove the subsections if you'd like because we won't use it.)
 
 Copy the first paragraph of the introduction, and recompile it! 
 
