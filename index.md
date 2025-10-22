@@ -12,6 +12,10 @@ show_call_box: true
 
 An Educational Psychology Doctoral Researcher at [Mind's Hub research group](https://www.helsinki.fi/en/researchgroups/motivation-learning-and-well-being-in-digital-era) in [University of Helsinki](https://researchportal.helsinki.fi/en/persons/kezia-olive), Finland. 
 
-I believe everyone deserves a chance in education and in science. That's why my research is mainly about **students' motivational development**, identifying key factors, like gender, that may inhibit students’ outcomes in Science, Technology, Engineering and Mathematics (STEM). This is also why I care a lot about promoting accessible teaching and open-science.
+I believe everyone deserves a chance in education and in science. 
+
+That's why my research is mainly about **students' motivational development**, identifying key factors, like gender, that may inhibit students’ outcomes in Science, Technology, Engineering and Mathematics (STEM). 
+
+This is also why I care a lot about promoting accessible teaching and open-science.
 
 Feel free to check my interests and work from this webpage and reach me through the contact details here to have a chat!
