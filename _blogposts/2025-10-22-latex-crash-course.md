@@ -10,9 +10,9 @@ A LaTeX/Overleaf short tutorial in written format!
 
 This is a written version of a workshop I am giving for **Emerging Scholars in Educational and Learning Sciences** conference (University of Helsinki) on 24th of October 2025.
 
-> Reminder: although this is easier if you have done programming before, and I might say examples for those who have used R or Python before, this is _really_ not necessary at all! 
+> Reminder: prior knowledge in programming is NOT necessary. Although this tutorial might be easier if you have done programming before, this is _really_ not necessary! 
 
-# What you'll need for this exercise
+# Prep: What you'll need for this exercise
 1. Create an account in [Overleaf](https://www.overleaf.com/)
 2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing!
 3. Download the two mock-files you will need for this exercise: 
@@ -25,13 +25,13 @@ What we do requires writing: be it writing essays, reports, journal articles, or
 While this is a good solution in general, there are several frustrations:
    - It is _not_ free. If you are not getting it paid by the university, it is pricey!
        - I would love for science to be open and free -- not only accessible to those who can afford a Microsoft suite. 
-       - You could go to google docs or use LibreOffice, but..
-   - A lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating when 
+       - You could go to Google docs or use LibreOffice, but..
+   - A lot of the things we write is long and complex. We work a lot with tables, figures, bibliography; and it could get so frustrating!
        - "What number figure is that again?" 
        - "Did I make sure that all the references are properly put in?" 
        - "What kind of sorcery made my page look so wonky???"
 
-![simpsons meme where everything is chaos, representing ms word formatting chaos](/images/ms-word-nightmare-simpsons.jpg)
+![illustration where everything is upside-down and chaos, representing ms word formatting chaos](/images/chaos-illustration.png)
 
 # 2. The aim of this exercise
 Introducing `LaTeX`, an open-sourced text-processing software
@@ -183,10 +183,12 @@ Then try recompiling it! Voila, you've covered most of the basics of how to do b
 
 # 10. Summary
 This is an introduction to a tool that is openly available to everyone -- you just need a working internet and willingness to learn.
-    - There is so much more you can do! I wrote my dissertation with LaTeX, and what a joy it is not to worry about formatting my table of contents in Word, cause LaTeX takes care of it for me.
+    - There is so much more you can do! I wrote my dissertation with LaTeX, and what a joy it is not to worry about formatting my table of contents in Word, because LaTeX takes care of it for me.
     - You can also check different publishers for their LaTeX template
 
-This session is not aimed to convert everyone into using LaTeX, but as a showcase of what is possible, what tools are available, and to nudge all of us to explore ways to make our scientific work more accessible and doable, even without the institutional privileges. In Computer Science, it is common practice to only pay around 80 euros to publish an article: they got rid of expensive article processing fees completely, cause everyone can format their texts to publishing ready without having someone hired to format them! Isn't that a wonderful practice that we can aspire to get to?
+This session is not aimed to convert everyone into using LaTeX, but as a showcase of what is possible, what tools are available, and to nudge all of us to explore ways to make our scientific work more accessible and doable even without the institutional privileges. 
+
+To take the vision even further, skills in using free and open source tools also could help lower the cost of publishing. For example, In Computer Science, it is common practice to only pay around 80 euros ([or even nothing at all!](https://github.com/xeroxism/free-apc-computer-science-journals/blob/main/journals/free-apc-computer-science-journals.md)) to publish an article: they don't need expensive article processing fees because everyone can format their texts to a high-quality publishing ready PDF without the necessity of paying someone to format them! Isn't that a wonderful practice that we can aspire to get to?
 
 Anyhow. Even if you're not taking up LaTeX or Overleaf, I hope this challenges you to think of ways to ensure that scientific publishing is more open.
 
