@@ -16,8 +16,8 @@ This is a written version of a workshop I am giving for **Emerging Scholars in E
 1. Create an account in [Overleaf](https://www.overleaf.com/)
 2. Open [Elsevier's template](https://www.overleaf.com/latex/templates/elsevier-article-elsarticle-template/vdzfjgjbckgz) and start learning by doing!
 3. Download the two mock-files you will need for this exercise: 
-    - .bib file -- [link](https://keziaolive.jabsserver.net/overleaf-practice.bib)
-    - .png file -- [link](https://keziaolive.jabsserver.net/conceptual_model.png).
+    - .bib file -- [link](https://files.keziaolive.com/overleaf-practice.bib)
+    - .png file -- [link](https://files.keziaolive.com/conceptual_model.png).
 
 # 1. Why learn LaTeX?
 What we do requires writing: be it writing essays, reports, journal articles, or our thesis/dissertation. These require tools, and we rely a lot on Microsoft Office suites.
@@ -46,7 +46,7 @@ Introducing `LaTeX`, an open-sourced text-processing software
 ## Learn by doing!
 To practice, we'll pretend to prepare [my second paper](https://doi.org/10.1016/j.lindif.2024.102534) for submission to an Elsevier journal (Learning and Individual Differences). 
 
-We'll try to prepare the title, highlights, abstract, first paragraph of introduction, and two lines from "1.4. The Present study" (embedding a figure). [Click here](https://keziaolive.jabsserver.net/Paper_2_mock.pdf) if you want to see what the final file looks like. 
+We'll try to prepare the title, highlights, abstract, first paragraph of introduction, and two lines from "1.4. The Present study" (embedding a figure). [Click here](https://files.keziaolive.com/Paper_2_mock.pdf) if you want to see what the final file looks like. 
 
 Through this, you get to learn:
 1. LaTeX document structure
@@ -193,7 +193,7 @@ To take the vision even further, skills in using free and open source tools also
 Anyhow. Even if you're not taking up LaTeX or Overleaf, I hope this challenges you to think of ways to ensure that scientific publishing is more open.
 
 All in all, good luck and have fun! 
-Feel free to [contact me](https://keziaolive.github.io/contact/) to geek out over LaTeX.
+Feel free to [contact me](https://keziaolive.com/contact/) to geek out over LaTeX.
 
 # Additional resources
 If you'd like to explore more on your own, try out [Overleaf's step-by-step guide for your first project]( [https://docs.overleaf.com/getting-started/your-first-project]), or [explore the different LaTeX commands](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Writing_your_first_piece_of_LaTeX).
