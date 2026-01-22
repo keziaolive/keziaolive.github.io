@@ -4,6 +4,6 @@ layout: contact
 description: Contact
 ---
 
-To reach me about research work, you can use the details above.
+You can use the details above to reach me about work!
 
-For personal projects and other chats, find my socials and personal details at the bottom of the page!
+For personal projects and other chats, find my socials at the bottom of the page!
